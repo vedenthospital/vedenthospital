@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ved ENT Hospital in Ahmedabad, Gujarat. Headed by Dr. Vishal Parmar (MS ENT). Specialized in Ear, Nose, Throat, Head & Neck Surgeries and General ENT Check-ups.">
+  <title>Ved ENT Hospital | Dr. Vishal Parmar - MS ENT Specialist in Ahmedabad</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header & Navigation -->
+  <header id="main-header">
+    <div class="container header-container">
+      <a href="#home" class="logo-link" onclick="switchPage('home')">
+        <img src="Logo Guj&Eng x17 (1).jpg" alt="Ved ENT Hospital Logo" class="logo-img" onerror="this.style.display='none'; document.getElementById('logo-fallback').style.display='flex'">
+        <div id="logo-fallback" class="doc-avatar-placeholder" style="display:none; width:40px; height:40px; font-size:16px;">VE</div>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <nav>
+        <ul class="nav-links" id="nav-menu">
+          <li><a href="#home" class="nav-link active" onclick="switchPage('home')">Home</a></li>
+          <li><a href="#about" class="nav-link" onclick="switchPage('about')">About Us</a></li>
+          <li><a href="#checkup" class="nav-link" onclick="switchPage('checkup')">ENT Check-Up</a></li>
+          <li><a href="#surgeries" class="nav-link" onclick="switchPage('surgeries')">Surgeries & Treatment</a></li>
+          <li><a href="#gallery" class="nav-link" onclick="switchPage('gallery')">Gallery</a></li>
+          <li><a href="#contact" class="nav-link" onclick="switchPage('contact')">Contact Us</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-cta">
+        <a href="https://wa.me/919512615150" target="_blank" class="btn btn-primary">
+          <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+          Book Appointment
+        </a>
+      </div>
+
+      <!-- Hamburger Menu for Mobile -->
+      <button class="menu-toggle" id="menu-btn" aria-label="Toggle Navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HOME SECTION -->
+  <main>
+    <section id="home" class="section-page active hero-section">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <h1>Advanced & Compassionate <span class="highlight">ENT Care</span></h1>
+          <p>Headed by <strong>Dr. Vishal Parmar (MS ENT)</strong>, we provide state-of-the-art diagnostics and advanced surgical solutions for Ear, Nose, Throat, Head & Neck disorders in Ahmedabad.</p>
+          <div class="hero-ctas">
+            <a href="https://wa.me/919512615150" target="_blank" class="btn btn-primary">Book Consultation</a>
+            <a href="#surgeries" class="btn btn-outline" onclick="switchPage('surgeries')">Explore Treatments</a>
+          </div>
+          <div class="hero-stats">
+            <div class="stat-item">
+              <h3>8+</h3>
+              <p>Years of Service</p>
+            </div>
+            <div class="stat-item">
+              <h3>1000+</h3>
+              <p>Happy Patients</p>
+            </div>
+            <div class="stat-item">
+              <h3>20+</h3>
+              <p>Surgical Treatments</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-image-wrapper">
+          <div class="hero-image-bg"></div>
+          <div class="doctor-hero-frame">
+            <div class="doc-image-container">
+              <img src="Images/Ved ENT Hospital.jpg" alt="Ved ENT Hospital" class="doctor-hero-img">
+            </div>
+            <div class="floating-badge badge-top-right">
+              <span class="badge-accent-dot"></span>
+              <div>
+                <strong>Dr. Vishal Parmar</strong>
+                <p>MS ENT Specialist</p>
+              </div>
+            </div>
+            <div class="floating-badge badge-bottom-left">
+              <span class="badge-icon">★</span>
+              <div>
+                <strong>8+ Years Exp</strong>
+                <p>Clinical Excellence</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT US SECTION -->
+    <section id="about" class="section-page about-section">
+      <div class="container">
+        <div class="section-title-wrapper">
+          <span class="section-badge">Our Legacy</span>
+          <h2 class="section-title">Serving Since <span>2018</span></h2>
+          <p class="section-desc">Dedicated to restoring health and improving patient experiences with specialized ENT expertise.</p>
+        </div>
+        <div class="about-grid">
+          <div class="about-image-container">
+            <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=600&q=80" alt="Modern ENT Consultation Room" class="about-img-main">
+            <div class="experience-badge">
+              <span class="years">8+</span>
+              <span class="text">Years of<br>Excellence</span>
+            </div>
+          </div>
+          <div class="about-content">
+            <h2>Dr. Vishal Parmar <span style="font-size: 18px; color: var(--color-primary); font-weight: 600;">(MS ENT)</span></h2>
+            <p class="about-desc-lead">Consultant Otorhinolaryngologist & Head-Neck Surgeon</p>
+            <p class="about-desc">Founded on 17th June 2018, Ved ENT Hospital has grown to become a premium destination for comprehensive ENT treatments in Ahmedabad. Under the visionary leadership of Dr. Vishal Parmar, our mission is to deliver high-quality, precise clinical care leveraging cutting-edge diagnostics and surgical techniques.</p>
+            <div class="about-points">
+              <div class="about-point">
+                <svg width="20" height="20" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                MS ENT Qualified Specialist
+              </div>
+              <div class="about-point">
+                <svg width="20" height="20" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                Endoscopic & Micro-surgery expertise
+              </div>
+              <div class="about-point">
+                <svg width="20" height="20" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                Pediatric ENT Care Specialist
+              </div>
+              <div class="about-point">
+                <svg width="20" height="20" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                State-of-the-art diagnostic setup
+              </div>
+            </div>
+            <a href="https://wa.me/919512615150" target="_blank" class="btn btn-primary">Schedule a Visit</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GENERAL ENT CHECK UP SECTION -->
+    <section id="checkup" class="section-page checkup-section">
+      <div class="container">
+        <div class="section-title-wrapper">
+          <span class="section-badge">Clinical Diagnostics</span>
+          <h2 class="section-title">General <span>ENT Check-up</span></h2>
+          <p class="section-desc">Select an anatomical area below to view common symptoms and clinical checkup options.</p>
+        </div>
+
+        <div class="checkup-layout">
+          <!-- Left side: Category Selector -->
+          <div class="checkup-menu">
+            <div class="checkup-menu-item active" onclick="showCheckupCategory('ear', this)">
+              <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
+              Ear
+            </div>
+            <div class="checkup-menu-item" onclick="showCheckupCategory('nose', this)">
+              <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364-6.364l-.707.707M6.343 17.657l-.707.707m0-12.728l.707.707m11.314 11.314l.707.707M12 8a4 4 0 100 8 4 4 0 000-8z"></path></svg>
+              Nose
+            </div>
+            <div class="checkup-menu-item" onclick="showCheckupCategory('throat', this)">
+              <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+              Throat
+            </div>
+            <div class="checkup-menu-item" onclick="showCheckupCategory('oral-cavity', this)">
+              <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+              Oral Cavity
+            </div>
+            <div class="checkup-menu-item" onclick="showCheckupCategory('larynx', this)">
+              <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19 11a7 7 0 01-7 7m0 0a7 7 0 01-7-7m7 7v4m0 0H8m4 0h4m-4-8a3 3 0 01-3-3V5a3 3 0 116 0v6a3 3 0 01-3 3z"></path></svg>
+              Larynx
+            </div>
+            <div class="checkup-menu-item" onclick="showCheckupCategory('neck', this)">
+              <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01"></path></svg>
+              Neck
+            </div>
+            <div class="checkup-menu-item" onclick="showCheckupCategory('specialty', this)">
+              <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+              Snoring & Rhinoplasty
+            </div>
+          </div>
+
+          <!-- Right side: Symptoms/Checkup Display Panel -->
+          <div class="checkup-display" id="checkup-details">
+            <!-- Dynamically populated, defaulting to Ear -->
+            <div class="display-header">
+              <div class="display-icon">
+                <svg width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15.536 8.464a5 5 0 010 7.072m2.828-9.9a9 9 0 010 12.728M5.586 15H4a1 1 0 01-1-1v-4a1 1 0 011-1h1.586l4.707-4.707C10.923 3.663 12 4.109 12 5v14c0 .891-1.077 1.337-1.707.707L5.586 15z"></path></svg>
+              </div>
+              <div>
+                <h3 class="display-title">Ear Evaluation</h3>
+                <p style="color:var(--text-muted); font-size:14px;">Assessment for general otological complications</p>
+              </div>
+            </div>
+            <h4 style="margin-bottom:16px; font-size:18px;">Common Symptoms & Conditions Addressed:</h4>
+            <div class="display-symptoms-list">
+              <div class="symptom-card"><div class="symptom-bullet"></div>Ear Pain (Otalgia)</div>
+              <div class="symptom-card"><div class="symptom-bullet"></div>Discharge (Otorrhea)</div>
+              <div class="symptom-card"><div class="symptom-bullet"></div>Decreased hearing / Loss</div>
+              <div class="symptom-card"><div class="symptom-bullet"></div>Giddiness / Vertigo</div>
+              <div class="symptom-card"><div class="symptom-bullet"></div>Tinnitus / Ringing sensation</div>
+              <div class="symptom-card"><div class="symptom-bullet"></div>Wax accumulation removal</div>
+              <div class="symptom-card"><div class="symptom-bullet"></div>Fungal Otitis Externa (Fungus)</div>
+            </div>
+            <div class="display-cta-card">
+              <div class="display-cta-text">
+                <h4>Experiencing any of these symptoms?</h4>
+                <p>Ensure timely diagnosis to prevent permanent auditory issues.</p>
+              </div>
+              <a href="https://wa.me/919512615150" target="_blank" class="btn btn-accent">Book Ear Checkup</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SURGERIES & TREATMENT SECTION -->
+    <section id="surgeries" class="section-page surgeries-section">
+      <div class="container">
+        <div class="section-title-wrapper">
+          <span class="section-badge">Therapeutic Excellence</span>
+          <h2 class="section-title">Surgeries & <span>Treatments</span></h2>
+          <p class="section-desc">Explore surgical procedures and therapeutic clinical services performed by Dr. Vishal Parmar.</p>
+        </div>
+
+        <!-- Search and Categorized Filters -->
+        <div class="search-filter-controls">
+          <div class="search-box">
+            <svg width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
+            <input type="text" class="search-input" id="surgery-search" placeholder="Search surgeries or treatments..." onkeyup="filterSurgeries()">
+          </div>
+          <div class="filter-tabs">
+            <button class="filter-tab active" onclick="filterCategory('all', this)">All</button>
+            <button class="filter-tab" onclick="filterCategory('ear', this)">Ear (Otology)</button>
+            <button class="filter-tab" onclick="filterCategory('nose', this)">Nose (Rhinology)</button>
+            <button class="filter-tab" onclick="filterCategory('throat-oral', this)">Throat & Oral</button>
+            <button class="filter-tab" onclick="filterCategory('larynx-neck', this)">Larynx & Neck</button>
+            <button class="filter-tab" onclick="filterCategory('clinical', this)">Clinical Care</button>
+          </div>
+        </div>
+
+        <div class="surgeries-grid" id="surgeries-container">
+          <!-- Dynamic cards populated by JavaScript to allow searching and filtering -->
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY SECTION -->
+    <section id="gallery" class="section-page gallery-section">
+      <div class="container">
+        <div class="section-title-wrapper">
+          <span class="section-badge">Hospital Tour</span>
+          <h2 class="section-title">Our <span>Gallery</span></h2>
+          <p class="section-desc">Take a visual tour of Ved ENT Hospital's modern premises, equipment, and consulting rooms.</p>
+        </div>
+
+        <div class="gallery-grid">
+          <div class="gallery-item" onclick="openLightbox('Images/Doctor Office.jpg', 'Doctor Consulting Room', 'Equipped with modern clinical diagnostics and consultation tools.')">
+            <img src="Images/Doctor Office.jpg" alt="Doctor Office">
+            <div class="gallery-overlay">
+              <h4>Doctor Consulting Room</h4>
+              <p>State-of-the-art diagnostic setup</p>
+            </div>
+          </div>
+          <div class="gallery-item" onclick="openLightbox('Images/Mordern Treatment Room.jpg', 'Modern Treatment Room', 'Equipped with digital otoscopy, endoscopy, and diagnostic chairs.')">
+            <img src="Images/Mordern Treatment Room.jpg" alt="Modern Treatment Room">
+            <div class="gallery-overlay">
+              <h4>Modern Treatment Room</h4>
+              <p>Advanced treatment setup</p>
+            </div>
+          </div>
+          <div class="gallery-item" onclick="openLightbox('Images/Advance Delux Single Occupancy Patient Room.jpg', 'Advance Deluxe Patient Room (Single)', 'Private air-conditioned room with patient bed, seating, and clean layout.')">
+            <img src="Images/Advance Delux Single Occupancy Patient Room.jpg" alt="Single Occupancy Patient Room">
+            <div class="gallery-overlay">
+              <h4>Deluxe Single Patient Room</h4>
+              <p>Premium single-occupancy suite</p>
+            </div>
+          </div>
+          <div class="gallery-item" onclick="openLightbox('Images/Advance Delux Double Occupancy Patient Room.jpg', 'Advance Deluxe Patient Room (Double)', 'Comfortable shared patient ward with modern medical amenities.')">
+            <img src="Images/Advance Delux Double Occupancy Patient Room.jpg" alt="Double Occupancy Patient Room">
+            <div class="gallery-overlay">
+              <h4>Deluxe Double Patient Room</h4>
+              <p>Premium double-occupancy suite</p>
+            </div>
+          </div>
+          <div class="gallery-item" onclick="openLightbox('Images/Reception.jpg', 'Reception & Patient Lounge', 'Clean, comfortable waiting space for visitors and patients.')">
+            <img src="Images/Reception.jpg" alt="Reception Area">
+            <div class="gallery-overlay">
+              <h4>Reception Desk</h4>
+              <p>Welcoming and helpful assistance desks</p>
+            </div>
+          </div>
+          <div class="gallery-item" onclick="openLightbox('Images/Doctor Office.jpg', 'Consultation Suite Detail', 'Comfortable consulting workspace for patient evaluations.')">
+            <img src="Images/Doctor Office.jpg" alt="Office Detail">
+            <div class="gallery-overlay">
+              <h4>Consultation Desk</h4>
+              <p>Consultation and diagnostics suite</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+      <button class="lightbox-close" onclick="closeLightbox()">&times;</button>
+      <div class="lightbox-content">
+        <img id="lightbox-img" src="" alt="Enlarged View">
+      </div>
+      <div id="lightbox-caption" class="lightbox-caption"></div>
+    </div>
+
+    <!-- CONTACT US SECTION -->
+    <section id="contact" class="section-page contact-section">
+      <div class="container">
+        <div class="section-title-wrapper">
+          <span class="section-badge">Reach Out</span>
+          <h2 class="section-title">Get In <span>Touch</span></h2>
+          <p class="section-desc">Visit our clinic or call us during operational hours to secure an consultation booking.</p>
+        </div>
+
+        <div class="contact-layout">
+          <!-- Info Details and Map -->
+          <div class="contact-info-panel">
+            <div class="contact-card-list">
+              <div class="contact-info-card">
+                <div class="contact-icon-box">
+                  <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                </div>
+                <div class="contact-info-details">
+                  <h4>Our Clinic Address</h4>
+                  <p>405-406, 4th Floor, Dream Square Commercial Complex, Akhbarnagar, Near Nirnaynagar Underbridge, Opposite Ramdevpir Temple, Ahmedabad, Gujarat - 380013</p>
+                </div>
+              </div>
+
+              <div class="contact-info-card">
+                <div class="contact-icon-box">
+                  <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.94.725l.548 2.2a1 1 0 01-.321.988l-1.305.98a10.582 10.582 0 004.872 4.872l.98-1.305a1 1 0 01.988-.321l2.2.548a1 1 0 01.725.94V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
+                </div>
+                <div class="contact-info-details">
+                  <h4>Contact Number</h4>
+                  <p><a href="https://wa.me/919512615150" target="_blank" style="color:var(--color-primary); font-weight:700;">+91 95126 15150</a></p>
+                </div>
+              </div>
+
+              <div class="contact-info-card">
+                <div class="contact-icon-box">
+                  <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                </div>
+                <div class="contact-info-details">
+                  <h4>Email Address</h4>
+                  <p><a href="mailto:vedenthospital@gmail.com" style="color:var(--color-primary); font-weight:700;">vedenthospital@gmail.com</a></p>
+                </div>
+              </div>
+
+              <div class="contact-info-card">
+                <div class="contact-icon-box">
+                  <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                </div>
+                <div class="contact-info-details">
+                  <h4>Operating Hours</h4>
+                  <p><strong>Monday to Saturday</strong><br>Morning: 9:30 AM to 1:00 PM<br>Evening: 5:30 PM to 8:30 PM</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Dynamic Google Maps embed for Akhbarnagar, Ahmedabad -->
+            <div class="map-container">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3671.077271911964!2d72.55394207593259!3d23.057639119330925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e8485dbfdf9cb%3A0xe53bc9658ee04fcb!2sDream%20Square%20Commercial%20Complex!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+
+          <!-- Appointment Booking Form -->
+          <div class="contact-form-panel">
+            <h3>Book An Appointment</h3>
+            <p>Fill out the form below, and our coordinator will connect back to confirm your consultation timing shortly.</p>
+            <form id="appointment-form" onsubmit="handleFormSubmit(event)">
+              <div class="form-grid">
+                <div class="form-group">
+                  <label for="name" class="form-label">Full Name *</label>
+                  <input type="text" id="name" class="form-input" placeholder="Enter your name" required>
+                </div>
+                <div class="form-group">
+                  <label for="phone" class="form-label">Phone Number *</label>
+                  <input type="tel" id="phone" class="form-input" placeholder="Your mobile number" pattern="[0-9]{10}" title="Ten digits phone number" required>
+                </div>
+                <div class="form-group">
+                  <label for="specialty-choice" class="form-label">Preferred Date</label>
+                  <input type="date" id="app-date" class="form-input">
+                </div>
+                <div class="form-group">
+                  <label for="department" class="form-label">Inquiry Area</label>
+                  <select id="department" class="form-select">
+                    <option value="general">General Checkup</option>
+                    <option value="ear">Ear Complications</option>
+                    <option value="nose">Nose & Sinus</option>
+                    <option value="throat">Throat & Tonsils</option>
+                    <option value="surgeries">Surgical Inquiry</option>
+                    <option value="hearing">Hearing Aid & Speech Therapy</option>
+                  </select>
+                </div>
+                <div class="form-group form-group-full">
+                  <label for="message" class="form-label">Describe Symptoms / Message</label>
+                  <textarea id="message" class="form-textarea" placeholder="List any symptoms or questions..."></textarea>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-accent" style="width: 100%;">Submit Appointment Inquiry</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <div class="footer-brand-logo">
+          <div class="doc-avatar-placeholder" style="width:36px; height:36px; font-size:14px;">VE</div>
+          <span class="logo-title" style="font-size:18px;">Ved ENT Hospital</span>
+        </div>
+        <p>Premium healthcare provider specializing in Otorhinolaryngology, Pediatric ENT clinical consultation, and Head-Neck corrective surgeries.</p>
+      </div>
+
+      <div class="footer-links">
+        <h4>Quick Navigation</h4>
+        <ul class="footer-nav">
+          <li><a href="#home" class="footer-nav-link" onclick="switchPage('home')">Home</a></li>
+          <li><a href="#about" class="footer-nav-link" onclick="switchPage('about')">About Us</a></li>
+          <li><a href="#checkup" class="footer-nav-link" onclick="switchPage('checkup')">ENT Check-Up Guide</a></li>
+          <li><a href="#surgeries" class="footer-nav-link" onclick="switchPage('surgeries')">Surgeries & Treatments</a></li>
+          <li><a href="#gallery" class="footer-nav-link" onclick="switchPage('gallery')">Gallery</a></li>
+          <li><a href="#contact" class="footer-nav-link" onclick="switchPage('contact')">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-contact">
+        <h4>Hospital Contacts</h4>
+        <div class="footer-details">
+          <div class="footer-detail-row">
+            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.94.725l.548 2.2a1 1 0 01-.321.988l-1.305.98a10.582 10.582 0 004.872 4.872l.98-1.305a1 1 0 01.988-.321l2.2.548a1 1 0 01.725.94V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg>
+            <a href="https://wa.me/919512615150" target="_blank"><span>+91 95126 15150</span></a>
+          </div>
+          <div class="footer-detail-row">
+            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+            <a href="mailto:vedenthospital@gmail.com"><span>vedenthospital@gmail.com</span></a>
+          </div>
+          <div class="footer-detail-row">
+            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+            <span>405-406, 4th Floor, Dream Square Commercial Complex, Akhbarnagar, Ahmedabad, 380013</span>
+          </div>
+          <div class="footer-detail-row" style="align-items: flex-start;">
+            <svg width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" style="margin-top: 3px; color: var(--color-primary); flex-shrink: 0;"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+            <span><strong>Monday to Saturday</strong><br>Morning: 9:30 AM to 1:00 PM<br>Evening: 5:30 PM to 8:30 PM</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <div class="footer-copyright">
+        &copy; 2026 Ved ENT Hospital. All Rights Reserved. Founded 17/06/2018.
+      </div>
+      <div class="footer-credits">
+        Design & Healthcare Solution by <a href="#home">Ved ENT Hospital</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
